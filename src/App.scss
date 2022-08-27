@@ -5,9 +5,14 @@
 // - Fonts
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@700&display=swap");
 
+html {
+	min-height: 100% !important;
+}
 body {
 	margin: 0;
 	font-family: 'Karla', sans-serif;
+	height: 100%;
+    background: #0B2434;
 	// font-family: 'Inter', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
