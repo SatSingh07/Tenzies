@@ -1,0 +1,38 @@
+.die {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: #fff;
+    color: #2B283A;
+    font-size: 1.8rem;
+    transition: .25s;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    cursor: pointer;
+
+    @media screen and (max-width: 545px) {
+        width: 50px;
+        height: 50px;
+        font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 374px) {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    &.held {
+        background: #59E391;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
